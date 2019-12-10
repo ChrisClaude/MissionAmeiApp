@@ -17,7 +17,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '#$f@kd7x^0mgkit^38c$-+b8st=c2x
 # DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://secret-eyrie-66077.herokuapp.com/']
 
 
 # Application definition
