@@ -1,0 +1,1 @@
+web: gunicorn missionamei.wsgi --log-file -
